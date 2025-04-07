@@ -1603,12 +1603,31 @@ footer {
     .feature__para {
         margin-top: 4px;
         line-height: 2;
+        text-align: center;
+    }
+    .quality__img {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .steps__img {
+        display: flex;
+        justify-content: center;
     }
     #steps .section__title {
         margin: 16px 0 0 0;
     }
     .steps__list {
         margin-top: 48px;
+    }
+    .step__para {
+        text-align: center;
+    }
+    #values .section__para {
+        text-align: center;
+    }
+    .value {
+        text-align: center;
     }
     .btn {
         line-height: 1.5;
@@ -1621,6 +1640,7 @@ footer {
     }
     .testimonial__para {
         margin-bottom: 32px;
+        text-align: center;
     }
     .testimonial__bottom {
         flex-direction: column;
@@ -1628,7 +1648,7 @@ footer {
         padding-top: 4px;
     }
     .testimonial__profile {
-        flex-direction: column;
+        display: flex;
         align-items: center;
     }
     .testimonial__details {
@@ -1638,6 +1658,9 @@ footer {
     .testimonial__img {
         height: 64px;
         width: 64px;
+    }
+    #testimonials .section__para {
+        text-align: center;
     }
     .testimonial__buttons {
         margin-top: 32px;
